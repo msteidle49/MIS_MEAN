@@ -5,7 +5,7 @@ const app = express();
 // Der port der Schnittstelle
 const port = 3000;
 
-// Definiert ein Schema für die Begrüßungen
+// Definiert ein Schema für die Begrüßungenen
 const greetingSchema = new mongoose.Schema({
   text: String
 });
